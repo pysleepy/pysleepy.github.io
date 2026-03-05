@@ -87,7 +87,7 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | **Deep Learning Foundations:** Representation learning; Optimization in deep networks; Generative modeling | Goodfellow, Bengio & Courville -- _Deep Learning_ (foundational perspective, not SOTA coverage) |
 | **Causal Machine Learning:** Structural Causal Models (SCM); Identifiability & interventions; Invariance & distribution shift; Causal representation learning | Peters, Janzing & Schölkopf -- _Elements of Causal Inference_ |
 | **Reinforcement Learning & Sequential Decision Making:** Markov Decision Processes (MDP);  Bellman Equations & Value Functions; Policy Optimization (Policy Gradient, Actor-Critic); Exploration–Exploitation Trade-off | Sutton & Barto -- _Reinforcement Learning: An Introduction_  |
-| **Optimization Theory (Cross-Cutting Engine of Learning)** <br>- Convex, nonconvex, and stochastic optimization <br>- Stability & implicit bias of SGD | Nesterov -- _Introductory Lectures on Convex Optimization_   |
+| **Optimization Theory (Cross-Cutting Engine of Learning)** Convex, nonconvex, and stochastic optimization; Stability & implicit bias of SGD | Nesterov -- _Introductory Lectures on Convex Optimization_   |
 
 
 
