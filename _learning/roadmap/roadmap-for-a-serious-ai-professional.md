@@ -210,9 +210,15 @@ _Emphasis: prioritize first-principles implementation of core components rather 
 ### Version History
 
 * 05-Mar-2026 — First public release on GitHub Pages
+
 * 03-Mar-2026 — Improved documentation structure
+
 * 02-Mar-2026 — Structural refinement of A/E layers
+
 * 01-Mar-2026 — Initial draft
+
+  
 ---
+
 Licensed under the MIT License.  
 This document is a living roadmap and may evolve over time.
