@@ -14,10 +14,10 @@ This roadmap outlines the mathematical and engineering foundations required for 
 
 | Level    | Academic      | Engineering          | Capability     |
 | :------- | :------ | :-------------- | :------------------ |
-| **Lv.1** | Core Mathematics   | Numerical & Scientific Computing | Mathematical and computational literacy         |
-| **Lv.2** | Advanced Mathematics     | Core Learning Implementation     | The most important stage where learners acquire foundations often missing from standard curricula but essential for serious ML practice. |
-| **Lv.3** | ML Paradigms & Theory   | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
-| **Lv.4** | Frontier Theoretical Lenses | Frontier Model Engineering       | Frontier research capability and contributions to new methods |
+| 1 | Core Mathematics   | Numerical & Scientific Computing | Mathematical and computational literacy         |
+| 2 | Advanced Mathematics     | Core Learning Implementation     | The most important stage where learners acquire foundations often missing from standard curricula but essential for serious ML practice. |
+| 3 | ML Paradigms & Theory   | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
+| 4 | Frontier Theoretical Lenses | Frontier Model Engineering       | Frontier research capability and contributions to new methods |
 
 Each level develops academic understanding and engineering capability in parallel, reflecting the dual nature of serious AI work: theoretical reasoning and practical system building.
 
