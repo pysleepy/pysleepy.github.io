@@ -12,12 +12,16 @@ This roadmap outlines the mathematical and engineering foundations required for 
 
 ## Roadmap Overview
 
+
+
 | Level    | Academic      | Engineering          | Capability     |
-| :------- | :------ | :-------------- | :------------------ |
+| ------- | ------ | -------------- | ------------------ |
 | 1 | Core Mathematics   | Numerical & Scientific Computing | Mathematical and computational literacy         |
 | 2 | Advanced Mathematics     | Core Learning Implementation     | The most important stage where learners acquire foundations often missing from standard curricula but essential for serious ML practice. |
 | 3 | ML Paradigms & Theory   | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
 | 4 | Frontier Theoretical Lenses | Frontier Model Engineering       | Frontier research capability and contributions to new methods |
+
+
 
 Each level develops academic understanding and engineering capability in parallel, reflecting the dual nature of serious AI work: theoretical reasoning and practical system building.
 
@@ -52,10 +56,13 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 ## Mathematical Foundations
 
-### A1. Core Mathematical Foundations 
+### A1. Core Mathematical Foundations
+
+
+
 
 | **Foundations**| **References**|
-| :------------- | ------------- |
+| ------------- | ------------- |
 | Linear Algebra | Strang -- _Introduction to Linear Algebra_ |
 | Calculus (single + multivariable) | Spivak -- _Calculus_ |
 | Probability Theory | Blitzstein & Hwang -- _Introduction to Probability_ |
@@ -66,8 +73,11 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 ### A2. Advanced Mathematical Foundations
 
+
+
+
 | **Foundations**| **References** |
-| :------------- | :------------- |
+| ------------- | ------------- |
 | Real Analysis (limits, convergence, proof maturity)| Abbott --  _Understanding Analysis_ |
 | Measure-Theoretic Probability  / Measure Theory (foundation of probability and information theory) | Folland --  _Real Analysis_ |
 | Stochastic Processes (Markov chains, martingales) | Durrett -- _Probability: Theory and Examples_ |
@@ -80,6 +90,10 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 
 ### A3. Core Theoretical Paradigms of Machine Learning
+
+
+
+
 | **Foundations**                                              | **References**                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Learning Theory:** Statistical Learning Theory (PAC, Rademacher, risk minimization); Overparameterization & generalization | Mohri, Rostamizadeh & Talwalkar -- _Foundations of Machine Learning_ |
@@ -93,14 +107,14 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 ### A4. Frontier Mathematical Backgrounds for Modern Machine Learning
 
+
+
+
 | **Topics (Mathematical Lenses)** | **References** |
-| :----------- | :-------------------------- |
+| ----------- | -------------------------- |
 | **Stochastic Calculus & Learning Dynamics:** Diffusion Models (SDE / score-based view); SGD as SDE / Langevin dynamics; Continuous-time RL & stochastic control | Øksendal -- _Stochastic Differential Equations_ |
 | **Infinite-Width & Kernel Regime Theory:** Kernel Theory (RKHS perspective); Neural Tangent Kernel (NTK); Tangent-space / mean-field limits; Overparameterized generalization theory | Schölkopf & Smola --  _Learning with Kernels_ (conceptual perspective) |
 | **Geometric Methods in Learning:**  Differential Geometry (manifolds & representations); Information Geometry (Fisher metric, natural gradient); Optimization geometry & loss landscapes; Geometric deep learning | Amari -- _Information Geometry and Its Applications_ |
-
-
-
 
 
 
@@ -109,9 +123,13 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 ## Engineering Foundations
 
-### E0. Computational & Systems Foundations  
+### E0. Computational & Systems Foundations
+
+
+
+
 | Foundations | Hands-on Map      |
-| :------ | :---------- |
+| ------ | ---------- |
 | CS Foundations (Data Structures, Algorithms, systems basics) | Computational thinking & efficient experimentation |
 | Python (clean scripting)   | Data scripts, experiment pipelines   |
 | Linux (shell, SSH, environments)   | Remote training, server workflow |
@@ -121,8 +139,11 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 ### E1. Numerical & Scientific Computing (Vectorization & Stability)
 
+
+
+
 | Foundations  | Hands-on Map |
-| :------------ | :------- |
+| ------------ | ------- |
 | NumPy & tensor operations  | Vectorized computation, numerical correctness, and efficient tensor ops  |
 | Numerical stability   | Debug NaNs, gradient explosion/vanishing, precision issues   |
 | Performance awareness | Memory usage, batching strategies, GPU utilization   |
@@ -130,22 +151,29 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 
 
-### E2. Core Learning Implementation  
+### E2. Core Learning Implementation
+
+
+
 
 | Foundations  | Hands-on Map    |
-| :------------ | :------------- |
+| ------------ | ------------- |
 | PyTorch fundamentals   | Implement MLP & CNN from scratch  |
 | Training mechanics   | Manual training loops, loss functions, optimizers, dataloaders  |
 | Diagnostics & failure analysis | Gradient norms, loss curves, overfitting, instability, and generalization gaps |
 | Visualization & logging   | TensorBoard / experiment logs and training monitoring    |
-|_Emphasis: prioritize first-principles implementation of core components rather than relying solely on high-level libraries._||
+
+_Emphasis: prioritize first-principles implementation of core components rather than relying solely on high-level libraries._
 
 
 
-### E3. Research Tooling, Modern Models & Experimental Ecosystem  
+### E3. Research Tooling, Modern Models & Experimental Ecosystem
+
+
+
 
 | Foundations   | Hands-on Map    |
-| :-------- | :------- |
+| -------- | ------- |
 | HuggingFace ecosystem  | Fine-tune Transformers / small foundation models   |
 | Transfer learning & model adaptation  | Pretrained foundation models (CNN/ResNet, ViT), PEFT (LoRA, adapters), prompt tuning |
 | Transformer internals      | Implement a mini-transformer and attention mechanisms        |
@@ -158,18 +186,19 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 
 
-### E4. Frontier Model Engineering & Research Fluency  
+### E4. Frontier Model Engineering & Research Fluency
+
+
+
 
 | Foundations    | Hands-on Map    |
-| :------- | :-------- |
+| ------- | -------- |
 | Large-scale training basics   | Accelerate, mixed precision, and distributed training fundamentals    |
 | Reproducible experimentation | Config management, random seeds, and controlled ablation setups    |
 | Research reproduction  | Re-implement paper baselines and verify reported results   |
 | Experimental design & ablation | Hypothesis-driven experiments and controlled comparisons    |
 | Scientific experiment management   | Structured logging, experiment tracking, and reproducible pipelines (W&B / MLflow) |
 | Advanced research frameworks (optional) | JAX/Flax for numerical experiments, custom autodiff, and research prototyping    |
-
-
 
 
 
