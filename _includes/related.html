@@ -1,0 +1,113 @@
+{% comment %}
+Weighted related ranking:
+1) Same collection first
+2) Overlap score (number of shared tags)
+3) Date (newest first)
+Max items controlled by max_items.
+GitHub Pages safe (no plugins).
+{% endcomment %}
+
+{% assign max_items = 8 %}
+
+{% if page.tags and page.tags.size > 0 %}
+
+  {% assign all_docs = site.blogs
+    | concat: site.learning
+    | concat: site.research
+    | concat: site.projects
+    | concat: site.resources %}
+
+  {% assign scored = "" | split: "" %}
+
+  {% for d in all_docs %}
+    {% if d.url != page.url and d.tags and d.tags.size > 0 %}
+
+      {% assign score = 0 %}
+      {% for t in page.tags %}
+        {% if d.tags contains t %}
+          {% assign score = score | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+
+      {% if score > 0 %}
+
+        {% assign same = 0 %}
+        {% if page.collection and d.collection and d.collection == page.collection %}
+          {% assign same = 1 %}
+        {% endif %}
+
+        {%- comment -%}pad score to 3 digits{%- endcomment -%}
+        {% assign s = score | plus: 0 %}
+        {% if s < 10 %}
+          {% assign s_str = "00" | append: s %}
+        {% elsif s < 100 %}
+          {% assign s_str = "0" | append: s %}
+        {% else %}
+          {% assign s_str = s %}
+        {% endif %}
+
+        {%- comment -%}date to unix seconds, pad to 10 digits{%- endcomment -%}
+        {% assign ts = 0 %}
+        {% if d.date %}
+          {% assign ts = d.date | date: "%s" %}
+        {% endif %}
+        {% assign ts_str = ts %}
+        {% if ts_str.size < 10 %}
+          {% assign pad = 10 | minus: ts_str.size %}
+          {% assign zeros = "" %}
+          {% for i in (1..pad) %}
+            {% assign zeros = zeros | append: "0" %}
+          {% endfor %}
+          {% assign ts_str = zeros | append: ts_str %}
+        {% endif %}
+
+        {%- comment -%}
+        Key: SAME | SCORE | DATE | URL
+        Reverse sort => higher SAME, SCORE, DATE first.
+        {%- endcomment -%}
+        {% assign key = same | append: "|" | append: s_str | append: "|" | append: ts_str | append: "|" | append: d.url %}
+        {% assign scored = scored | push: key %}
+
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign scored = scored | uniq | sort | reverse %}
+
+  {% if scored.size > 0 %}
+    <aside class="related-panel" aria-label="Related">
+      <div class="related-title">Related</div>
+
+      <ul class="related-list">
+        {% for key in scored limit: max_items %}
+          {% assign parts = key | split: "|" %}
+          {% assign url = parts[3] %}
+
+          {% assign found = nil %}
+          {% for d in all_docs %}
+            {% if d.url == url %}
+              {% assign found = d %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if found %}
+            <li class="related-item">
+              <a class="related-link" href="{{ found.url | relative_url }}">
+                {{ found.title | default: found.name }}
+              </a>
+              {% if found.date %}
+                <span class="related-meta">{{ found.date | date: "%Y-%m-%d" }}</span>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <div class="related-home">
+        <a href="{{ '/' | relative_url }}">← Back to Home</a>
+      </div>
+    </aside>
+  {% endif %}
+
+{% endif %}

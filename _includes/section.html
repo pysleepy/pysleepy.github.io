@@ -1,0 +1,24 @@
+<section class="sec" data-sec="{{ include.sec }}">
+  <h2>{{ include.title }}</h2>
+
+  {% assign items = include.items | sort: "date" | reverse %}
+  <ul class="doc-list">
+    {% for doc in items %}
+      {% assign tag_str = "" %}
+      {% if doc.tags and doc.tags.size > 0 %}
+        {% assign tag_str = doc.tags | join: "," %}
+      {% endif %}
+
+      {% assign fallback_title = doc.name | replace: ".md", "" | replace: ".markdown", "" %}
+
+      <li class="doc-item" data-tags="{{ tag_str | escape }}">
+        {% if doc.date %}{{ doc.date | date: "%Y-%m-%d" }} — {% endif %}
+        <a href="{{ doc.url | relative_url }}">{{ doc.title | default: fallback_title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="list-controls">
+    <button class="more-btn" type="button">Show more</button>
+  </div>
+</section>

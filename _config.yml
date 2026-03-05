@@ -1,0 +1,73 @@
+title: "PySleepy's Blog"
+description: "AI for Humans. By Design." # "Research and project notes"
+author: PySleepy
+theme: minima
+
+url: "https://pysleepy.github.io"
+baseurl: ""
+# If you are using a project repo (NOT pysleepy.github.io), use:
+# baseurl: "/<repo_name>"
+# so that you can visit pysleepy.github.io/repo_name, and project repo name takes priority over a folder if you
+# have duplicate name
+
+timezone: Australia/Sydney
+future: false
+
+google_analytics: G-F3TEPDYFFS
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+header_pages:
+  - index.html
+  - blogs.md
+  - learning.md
+  - research.md
+  - projects.md
+  - resources.md
+  - about.md
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:path/
+  learning:
+    output: true
+    permalink: /learning/:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: blogs
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: learning
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: page

@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+    <!-- Global floating nav -->
+    <nav id="floatNav" class="float-nav" aria-label="Quick navigation">
+      <a class="float-nav__link" href="{{ '/' | relative_url }}">Home</a>
+      <button id="backToTop" class="float-nav__btn" type="button">Top</button>
+      <button id="backBtn" class="float-nav__btn" type="button">Back</button>
+    </nav>
+
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>

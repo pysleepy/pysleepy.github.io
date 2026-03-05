@@ -1,0 +1,20 @@
+---
+layout: home
+title: Home # Learning, Research and Project Notes
+---
+
+<div class="page-grid">
+  <main class="page-main">
+
+    {% include section.html sec="blogs"        title="Blogs"        items=site.blogs %}
+    {% include section.html sec="learning"     title="Learning"     items=site.learning %}
+    {% include section.html sec="research"     title="Research"     items=site.research %}
+    {% include section.html sec="projects"     title="Projects"     items=site.projects %}
+    {% include section.html sec="resources"    title="Resources"    items=site.resources %}
+
+  </main>
+  {% include tag-panel.html %}
+
+</div>
+
+<script src="{{ '/assets/js/filters.js' | relative_url }}"></script>

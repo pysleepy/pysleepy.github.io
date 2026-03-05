@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="page-with-related">
+  <article class="page-content-article">
+    {% if page.title and page.title != "" %}
+      <header class="post-header">
+        <h2 class="post-title">{{ page.title | escape }}</h2>
+      </header>
+    {% endif %}
+
+    {{ content }}
+
+  </article>
+
+  {% include related.html %}
+</div>
