@@ -15,6 +15,7 @@ Thanks to the community and modern AI tools, I can finally set this up without s
 Well… almost.
 
 I still managed to spend a few hours debugging why my blog posts had mysteriously disappeared -- only to discover that Jekyll hides posts dated in the “future”. The timezone mismatch between my machine and the server made my very first post look like it was written tomorrow. Classic.
+
 (╯°□°）╯︵ ┻━┻
 
 But in the end, everything works.
