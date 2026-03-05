@@ -8,10 +8,12 @@ tags: [roadmap, mathematics, machine-learning, lifelong-learning]
 
 This roadmap outlines the mathematical and engineering foundations required for serious work in artificial intelligence and machine learning. It emphasizes long-term research maturity rather than short-term job preparation. The guide organizes essential knowledge into two parallel tracks: academic foundations (mathematics and theory) and engineering foundations (systems and implementation), and highlights an iterative approach to studying advanced topics while minimizing unnecessary overlap between resources.
 
+
+
 ## Roadmap Overview
 
 | Level    | Academic      | Engineering          | Capability     |
-| -------- | ------- | --------------- | ------------------- |
+| :------- | :------ | :-------------- | :------------------ |
 | **Lv.1** | Core Mathematics   | Numerical & Scientific Computing | Mathematical and computational literacy         |
 | **Lv.2** | Advanced Mathematics     | Core Learning Implementation     | The most important stage where learners acquire foundations often missing from standard curricula but essential for serious ML practice. |
 | **Lv.3** | ML Paradigms & Theory   | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
@@ -35,22 +37,23 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 - **A1 / E1 -- Foundations**  
   Establish the essential mathematical and computational literacy required for AI research.
-  
 - **A2 / E2 -- Maturity Layer**  
   The most important stage where learners acquire foundations often missing from standard curricula but essential for serious ML practice. This layer typically represents the largest gap for many learners.
-  
 - **A3 / E3 -- Specialization Layer**  
   Develop deeper expertise in specific research paradigms or application domains.
-
 - **A4 / E4 -- Frontier Layer**  
   Enable sustained contributions to cutting-edge research and large-scale experimentation.
 
-<div style="page-break-after: always;"></div>
+
 
 ---
+
+
+
 ## Mathematical Foundations
 
 ### A1. Core Mathematical Foundations 
+
 | **Foundations**| **References**|
 | :------------- | ------------- |
 | Linear Algebra | Strang -- _Introduction to Linear Algebra_ |
@@ -59,7 +62,7 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Discrete Mathematics (sets, graphs, combinatorics) | Rosen --  _Discrete Mathematics and Its Applications_ |
 | Algorithms & Complexity (search, dynamic programming, asymptotics) | CLRS -- _Introduction to Algorithm_ |
 
-<div style="page-break-after: always;"></div>
+
 
 ### A2. Advanced Mathematical Foundations
 
@@ -76,8 +79,6 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 
 
-<div style="page-break-after: always;"></div>
-
 ### A3. Core Theoretical Paradigms of Machine Learning
 | **Foundations**                                              | **References**                                               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -88,18 +89,24 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | **Reinforcement Learning & Sequential Decision Making:** Markov Decision Processes (MDP);  Bellman Equations & Value Functions; Policy Optimization (Policy Gradient, Actor-Critic); Exploration–Exploitation Trade-off | Sutton & Barto -- _Reinforcement Learning: An Introduction_  |
 | **Optimization Theory (Cross-Cutting Engine of Learning)** <br>- Convex, nonconvex, and stochastic optimization <br>- Stability & implicit bias of SGD | Nesterov -- _Introductory Lectures on Convex Optimization_   |
 
-<div style="page-break-after: always;"></div>
+
 
 ### A4. Frontier Mathematical Backgrounds for Modern Machine Learning
+
 | **Topics (Mathematical Lenses)** | **References** |
 | :----------- | :-------------------------- |
 | **Stochastic Calculus & Learning Dynamics:** Diffusion Models (SDE / score-based view); SGD as SDE / Langevin dynamics; Continuous-time RL & stochastic control | Øksendal -- _Stochastic Differential Equations_ |
 | **Infinite-Width & Kernel Regime Theory:** Kernel Theory (RKHS perspective); Neural Tangent Kernel (NTK); Tangent-space / mean-field limits; Overparameterized generalization theory | Schölkopf & Smola --  _Learning with Kernels_ (conceptual perspective) |
 | **Geometric Methods in Learning:**  Differential Geometry (manifolds & representations); Information Geometry (Fisher metric, natural gradient); Optimization geometry & loss landscapes; Geometric deep learning | Amari -- _Information Geometry and Its Applications_ |
 
-<div style="page-break-after: always;"></div>
+
+
+
+
 
 ---
+
+
 ## Engineering Foundations
 
 ### E0. Computational & Systems Foundations  
@@ -110,9 +117,10 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Linux (shell, SSH, environments)   | Remote training, server workflow |
 | Git & Reproducibility  | Versioned experiments, GitHub repos  |
 
-<div style="page-break-after: always;"></div>
+
 
 ### E1. Numerical & Scientific Computing (Vectorization & Stability)
+
 | Foundations  | Hands-on Map |
 | :------------ | :------- |
 | NumPy & tensor operations  | Vectorized computation, numerical correctness, and efficient tensor ops  |
@@ -120,9 +128,10 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Performance awareness | Memory usage, batching strategies, GPU utilization   |
 | Automatic differentiation literacy | Inspect gradients, verify backprop correctness, understand autodiff mechanics |
 
-<div style="page-break-after: always;"></div>
+
 
 ### E2. Core Learning Implementation  
+
 | Foundations  | Hands-on Map    |
 | :------------ | :------------- |
 | PyTorch fundamentals   | Implement MLP & CNN from scratch  |
@@ -131,9 +140,10 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Visualization & logging   | TensorBoard / experiment logs and training monitoring    |
 |_Emphasis: prioritize first-principles implementation of core components rather than relying solely on high-level libraries._||
 
-<div style="page-break-after: always;"></div>
+
 
 ### E3. Research Tooling, Modern Models & Experimental Ecosystem  
+
 | Foundations   | Hands-on Map    |
 | :-------- | :------- |
 | HuggingFace ecosystem  | Fine-tune Transformers / small foundation models   |
@@ -146,9 +156,10 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Benchmark literacy    | CIFAR-10, ImageNet, GLUE, Kaggle and UCI datasets |
 | Paper-to-code mapping     | Implement and adapt methods from papers and research repos   |
 
-<div style="page-break-after: always;"></div>
+
 
 ### E4. Frontier Model Engineering & Research Fluency  
+
 | Foundations    | Hands-on Map    |
 | :------- | :-------- |
 | Large-scale training basics   | Accelerate, mixed precision, and distributed training fundamentals    |
@@ -158,9 +169,14 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 | Scientific experiment management   | Structured logging, experiment tracking, and reproducible pipelines (W&B / MLflow) |
 | Advanced research frameworks (optional) | JAX/Flax for numerical experiments, custom autodiff, and research prototyping    |
 
-<div style="page-break-after: always;"></div>
+
+
+
+
 
 ---
+
+
 
 ### Version History
 
