@@ -29,9 +29,9 @@
   if (!wrapper) return;
 
   const rect = wrapper.getBoundingClientRect();
-  const gap = 16; // spacing from wrapper edge
+  const gap = -50; // spacing from wrapper edge
 
-  const right = Math.max(16, Math.round(window.innerWidth - rect.right + gap));
+  const right = Math.max(12, Math.round(window.innerWidth - rect.right + gap));
   document.documentElement.style.setProperty("--float-nav-right", right + "px");
  }
 
