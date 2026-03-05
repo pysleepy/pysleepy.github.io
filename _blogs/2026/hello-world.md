@@ -26,4 +26,4 @@ So here it is -- a simple *Hello World*.
 
 Only about a decade late.
 
-![caption]({{ "/assets/img/blogs/2026/hello-world/do-not-squander-time.jpg" | relative_url }})
+![caption]({{ "/assets/img/blogs/2026/hello-world/do-not-squander-time.png" | relative_url }})
