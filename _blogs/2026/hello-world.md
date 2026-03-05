@@ -25,3 +25,5 @@ And now I can focus on what actually matters: writing.
 So here it is -- a simple *Hello World*.
 
 Only about a decade late.
+
+![caption]({{ "/assets/img/blogs/2026/hello-world/do-not-squander-time.jpg" | relative_url }})

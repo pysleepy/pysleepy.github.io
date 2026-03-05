@@ -4,8 +4,6 @@ date: 2026-03-05
 tags: [roadmap, mathmatics, machine-learning, lifelong-learning]
 ---
 
-![caption]({{ "/assets/img/figure1.png" | relative_url }})
-
 ---
 ### Abstract
 

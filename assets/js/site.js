@@ -25,15 +25,15 @@
   }
 
   function alignToWrapper() {
-  const wrapper = document.querySelector(".wrapper");
-  if (!wrapper) return;
+    const wrapper = document.querySelector(".wrapper");
+    if (!wrapper) return;
 
-  const rect = wrapper.getBoundingClientRect();
-  const gap = -110; // spacing from wrapper edge
+    const rect = wrapper.getBoundingClientRect();
+    const gap = -110; // spacing from wrapper edge
 
-  const right = Math.max(12, Math.round(window.innerWidth - rect.right + gap));
-  document.documentElement.style.setProperty("--float-nav-right", right + "px");
- }
+    const right = Math.max(12, Math.round(window.innerWidth - rect.right + gap));
+    document.documentElement.style.setProperty("--float-nav-right", right + "px");
+  }
 
   window.addEventListener("scroll", updateVisibility, { passive: true });
 
