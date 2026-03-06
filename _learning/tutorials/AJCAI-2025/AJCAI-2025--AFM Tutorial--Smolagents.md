@@ -6,6 +6,9 @@ tags: [agentic ai, smolagents, ollama]
 
 # **Smolagents Demo for AFM Tutorial @ AJCAI 2025**
 
+[Open in Colab](https://colab.research.google.com/drive/1fn2g0BIWoWqgTwJj6xMQGIv5BcVa454_?usp=sharing)
+
+
 * **Workshop:** Workshop on Federation of Agentic Foundation Models in Conjunction with AJCAI 2025 (FAFM-AJCAI'25)
 
 * **Date:** **09:00–12:30, Tuesday, December 02, 2025**
