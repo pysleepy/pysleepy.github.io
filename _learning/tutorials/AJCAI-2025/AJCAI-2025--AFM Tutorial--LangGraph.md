@@ -16,7 +16,7 @@ tags: [agentic ai, langraph, ollama]
 
 * **Affiliation:** *The Australian AI Institute, School of Computer Science, University of Technology Sydney, Australia*
 
-* ([Open in Colab](https://colab.research.google.com/drive/11sF5D4lcx5d2eeuoNdLncv5YVEj57u6Q?usp=sharing))
+* 🚀 [Open in Colab to run this notebook interactively](https://colab.research.google.com/drive/11sF5D4lcx5d2eeuoNdLncv5YVEj57u6Q?usp=sharing)
 
 ---
 
