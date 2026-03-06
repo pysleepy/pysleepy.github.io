@@ -6,9 +6,6 @@ tags: [agentic ai, smolagents, ollama]
 
 # **Smolagents Demo for AFM Tutorial @ AJCAI 2025**
 
-[Open in Colab](https://colab.research.google.com/drive/1fn2g0BIWoWqgTwJj6xMQGIv5BcVa454_?usp=sharing)
-
-
 * **Workshop:** Workshop on Federation of Agentic Foundation Models in Conjunction with AJCAI 2025 (FAFM-AJCAI'25)
 
 * **Date:** **09:00–12:30, Tuesday, December 02, 2025**
@@ -18,6 +15,8 @@ tags: [agentic ai, smolagents, ollama]
 * **Presenter:** **Dr. Peng Yan** ([peng.yan-1@uts.edu.au](mailto:peng.yan-1@uts.edu.au))
 
 * **Affiliation:** *The Australian AI Institute, School of Computer Science, University of Technology Sydney, Australia*
+
+* ([Open in Colab](https://colab.research.google.com/drive/1fn2g0BIWoWqgTwJj6xMQGIv5BcVa454_?usp=sharing))
 
 ---
 
