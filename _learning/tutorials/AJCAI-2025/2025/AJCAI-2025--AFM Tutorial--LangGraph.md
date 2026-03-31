@@ -1,7 +1,7 @@
 ---
 title: AJCAI-2025-Agent-Tutorial-LangGraph
 date: 2025-12-02
-tags: [agentic ai, langraph, ollama]
+tags: [agentic, langraph, ollama]
 ---
 
 # **LangGraph Demo for AFM Tutorial @ AJCAI 2025**

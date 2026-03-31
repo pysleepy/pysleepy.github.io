@@ -1,7 +1,7 @@
 ---
 title: Roadmap for a Serious AI Professional
 date: 2026-03-05
-tags: [roadmap, mathematics, machine-learning, lifelong-learning]
+tags: [roadmap, mathematics, machine learning, lifelong learning]
 ---
 
 ## Abstract
@@ -94,14 +94,14 @@ The roadmap is organized into two parallel dimensions: **academic foundations (A
 
 
 
-| **Foundations**                                              | **References**                                               |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Learning Theory:** Statistical Learning Theory (PAC, Rademacher, risk minimization); Overparameterization & generalization | Mohri, Rostamizadeh & Talwalkar -- _Foundations of Machine Learning_ |
-| **Probabilistic & Bayesian Paradigm:** Bayesian Inference; Variational Methods (VI, ELBO); Generative modeling foundations; Probabilistic Graphical Models | Murphy -- _Probabilistic Machine Learning: Foundations_      |
+| **Foundations**                                              | **References**                                                                                  |
+| ------------------------------------------------------------ |-------------------------------------------------------------------------------------------------|
+| **Learning Theory:** Statistical Learning Theory (PAC, Rademacher, risk minimization); Overparameterization & generalization | Mohri, Rostamizadeh & Talwalkar -- _Foundations of Machine Learning_                            |
+| **Probabilistic & Bayesian Paradigm:** Bayesian Inference; Variational Methods (VI, ELBO); Generative modeling foundations; Probabilistic Graphical Models | Murphy -- _Probabilistic Machine Learning (Foundations + Advanced)_                             |
 | **Deep Learning Foundations:** Representation learning; Optimization in deep networks; Generative modeling | Goodfellow, Bengio & Courville -- _Deep Learning_ (foundational perspective, not SOTA coverage) |
-| **Causal Machine Learning:** Structural Causal Models (SCM); Identifiability & interventions; Invariance & distribution shift; Causal representation learning | Peters, Janzing & Schölkopf -- _Elements of Causal Inference_ |
-| **Reinforcement Learning & Sequential Decision Making:** Markov Decision Processes (MDP);  Bellman Equations & Value Functions; Policy Optimization (Policy Gradient, Actor-Critic); Exploration–Exploitation Trade-off | Sutton & Barto -- _Reinforcement Learning: An Introduction_  |
-| **Optimization Theory (Cross-Cutting Engine of Learning)** Convex, nonconvex, and stochastic optimization; Stability & implicit bias of SGD | Nesterov -- _Introductory Lectures on Convex Optimization_   |
+| **Causal Machine Learning:** Structural Causal Models (SCM); Identifiability & interventions; Invariance & distribution shift; Causal representation learning | Peters, Janzing & Schölkopf -- _Elements of Causal Inference_                                   |
+| **Reinforcement Learning & Sequential Decision Making:** Markov Decision Processes (MDP);  Bellman Equations & Value Functions; Policy Optimization (Policy Gradient, Actor-Critic); Exploration–Exploitation Trade-off | Sutton & Barto -- _Reinforcement Learning: An Introduction_                                     |
+| **Optimization Theory (Cross-Cutting Engine of Learning)** Convex, nonconvex, and stochastic optimization; Stability & implicit bias of SGD | Nesterov -- _Introductory Lectures on Convex Optimization_                                      |
 
 
 

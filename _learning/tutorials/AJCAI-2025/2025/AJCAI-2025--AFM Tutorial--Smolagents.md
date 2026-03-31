@@ -1,7 +1,7 @@
 ---
 title: AJCAI-2025-Agent-Tutorial-Smolagents
 date: 2025-12-02
-tags: [agentic ai, smolagents, ollama]
+tags: [agentic, smolagents, ollama]
 ---
 
 # **Smolagents Demo for AFM Tutorial @ AJCAI 2025**
