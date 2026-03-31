@@ -14,12 +14,12 @@ This roadmap outlines the mathematical and engineering foundations required for 
 
 
 
-| Level | Academic                    | Engineering          | Capability     |
-|-------|-----------------------------| -------------- | ------------------ |
-| A1/E1 | Core Mathematics            | Numerical & Scientific Computing | Mathematical and computational literacy         |
-| A2/E2 | Advanced Mathematics        | Core Learning Implementation     | Essential for serious ML practiceace but often missing from standard curricula |
-| A3/E3 | ML Paradigms & Theory       | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
-| A4/E4 | Frontier Theoretical Lenses | Frontier Model Engineering       | Frontier research capability and contributions to new methods |
+| <div style="width: 80px;">Level</div>    | Academic                    | Engineering          | Capability     |
+|------------------------------------------|-----------------------------| -------------- | ------------------ |
+| <div style="text-align: center;">1</div> | Core Mathematics            | Numerical & Scientific Computing | Mathematical and computational literacy         |
+| <div style="text-align: center;">2</div> | Advanced Mathematics        | Core Learning Implementation     | Essential for serious ML practiceace but often missing from standard curricula |
+| <div style="text-align: center;">3</div> | ML Paradigms & Theory       | Tooling, Models & Ecosystem      | Specialization toward particular ML paradigms or application domains |
+| <div style="text-align: center;">4</div> | Frontier Theoretical Lenses | Frontier Model Engineering       | Frontier research capability and contributions to new methods |
 
 
 
