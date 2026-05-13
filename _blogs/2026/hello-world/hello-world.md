@@ -29,4 +29,4 @@ Only about a decade late.
 <!-- 
 ![caption]({{ "/assets/images/do-not-squander-time.png" | relative_url }})
 -->
-![caption](do-not-squander-time.png)
+![caption](![caption]({{ page.url | relative_url | append: "do-not-squander-time.png" }}))
