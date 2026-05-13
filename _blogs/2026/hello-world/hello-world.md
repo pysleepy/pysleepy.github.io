@@ -26,4 +26,7 @@ So here it is -- a simple *Hello World*.
 
 Only about a decade late.
 
-![caption]({{ "do-not-squander-time.png" | relative_url }})
+<!-- 
+![caption]({{ "/assets/images/do-not-squander-time.png" | relative_url }})
+-->
+![caption]({{ "do-not-squander-time.png"}})
