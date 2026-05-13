@@ -2,6 +2,7 @@
 title: Hello World
 date: 2026-03-05
 tags: []
+image_base: /blogs/2026/hello-world/
 ---
 
 Finally, I have deployed my GitHub Pages site -- with the help of AI (￣▽￣).
@@ -29,4 +30,4 @@ Only about a decade late.
 <!-- 
 ![caption]({{ "/assets/images/do-not-squander-time.png" | relative_url }})
 -->
-![caption](![caption]({{ page.url | relative_url | append: "do-not-squander-time.png" }}))
+![caption](![caption]({{ page.image_base | append: "do-not-squander-time.png" | relative_url }}))
